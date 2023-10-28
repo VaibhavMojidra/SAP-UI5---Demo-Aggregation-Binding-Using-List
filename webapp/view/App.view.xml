@@ -1,0 +1,17 @@
+<mvc:View xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<Shell>
+		<App>
+			<pages>
+				<Page title="Aggregation Binding">
+					<content>
+						<Panel headerText="Using List" class="sapUiResponsiveMargin" width="auto">
+							<content>
+								<mvc:XMLView viewName="com.vaibhavmojidra.aggregationbindingdemousinglist.view.InvoiceList"/>
+							</content>
+						</Panel>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
